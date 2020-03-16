@@ -1,5 +1,7 @@
 header {
-    background-color: peachpuff;
+    /*background-color: #ffef12;*/
+    background-color: #f5e50f;
+    /*background-color: #f5e20f;*/
     padding: 1px;
     text-align: center;
     font-size: 35px;
@@ -12,9 +14,9 @@ nav {
     float: left;
     width: 100px;
     height: 100%;
-    background: papayawhip;
+    background: #f5e50f;
     padding: 100px;
-    font-size: 20px;
+    font-size: 22px;
     color: white;
 }
 
@@ -29,6 +31,7 @@ article {
     width: 70%;
     background-color: white;
     height: 300px;
+    line-height: 1.6;
 }
 
 section: after {
@@ -96,12 +99,12 @@ footer {
     nav ul {
         margin-top: -50px;
         margin-bottom: 100px;
-        font-size: 16px;
+        font-size: 17px;
         padding-left: 0px;
     }
 
     article {
-        width: 500px;
+        width: 460px;
         padding-left: 0px;
     }
 
@@ -163,6 +166,7 @@ p2 {
     margin-top: 30px;
     margin-bottom: 70px;
     padding-left: 40px;
+    line-height: 2.0;
 }
 
 a:link {
