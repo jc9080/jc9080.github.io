@@ -45,42 +45,42 @@ footer {
 }
 
 
-/*@media (max-width: 1149px) {*/
-/*    header {*/
-/*        font-size: 20px;*/
-/*        height: 90px;*/
-/*        width: 100%;*/
-/*        margin-top: 0%;*/
-/*    }*/
+@media (max-width: 1149px) {
+    header {
+        font-size: 20px;
+        height: 90px;
+        width: 100%;
+        margin-top: 0%;
+    }
 
-/*    nav {*/
-/*        width: 80%;*/
-/*        height: 1px;*/
-/*    }*/
+    nav {
+        width: 80%;
+        height: 1px;
+    }
 
-/*    nav ul {*/
-/*        margin-top: -50px;*/
-/*        margin-bottom: 100px;*/
-/*        font-size: 16px;*/
-/*    }*/
+    nav ul {
+        margin-top: -50px;
+        margin-bottom: 100px;
+        font-size: 16px;
+    }
 
-/*    article {*/
-/*        width: 1000px;*/
-/*        padding-left: 0px;*/
-/*    }*/
+    article {
+        width: 1000px;
+        padding-left: 0px;
+    }
 
-/*    img {*/
-/*        width: 600px;*/
-/*    }*/
+    img {
+        width: 600px;
+    }
 
-/*    #ryan {*/
-/*        width: 300px;*/
-/*    }*/
-/*}*/
+    #ryan {
+        width: 300px;
+    }
+}
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 485px) {
     header {
         font-size: 20px;
         height: 90px;
