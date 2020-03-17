@@ -85,20 +85,25 @@ footer {
     nav ul {
         margin-top: -50px;
         margin-bottom: 100px;
-        font-size: 16px;
+        font-size: 17px;
+        /*padding-left: 20px;*/
     }
 
     article {
-        width: 1000px;
-        padding-left: 0px;
+        width: 600px;
+        padding-left: 200px;
     }
 
     img {
-        width: 600px;
+        width: 500px;
     }
 
     #ryan {
         width: 300px;
+    }
+
+    .center {
+        width: 70%;
     }
 }
 
@@ -139,6 +144,10 @@ footer {
 
     #ryan {
         width: 300px;
+    }
+
+    .center {
+        width: 60%;
     }
 }
 
@@ -204,4 +213,11 @@ p2 {
 
 a:link {
     text-decoration: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
