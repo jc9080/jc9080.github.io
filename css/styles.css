@@ -9,11 +9,28 @@ header {
     width: 100%;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    padding-left: 40%;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
 nav {
     float: left;
-    width: 100px;
-    height: 100%;
-    background: #fae311;
+    /*width: 100px;*/
+    /*height: 100%;*/
+    width: 100%;
+    height: 50px;
+    background: black;
     padding: 100px;
     font-size: 22px;
     color: white;
@@ -26,8 +43,9 @@ nav ul {
 
 article {
     float: left;
-    padding: 20px;
-    width: 60%;
+    padding-top: 10px;
+    padding-left: 456px;
+    width: 46%;
     background-color: white;
     height: 300px;
     line-height: 1.6;
@@ -40,7 +58,7 @@ section: after {
 }
 
 footer {
-    background-color: peachpuff;
+    background-color: #fae311;
     padding: 10px;
     text-align: center;
     color: white;
@@ -53,6 +71,10 @@ footer {
         height: 90px;
         width: 100%;
         margin-top: 0%;
+    }
+
+    .topnav {
+        padding-left: 34%;
     }
 
     nav {
@@ -88,6 +110,10 @@ footer {
         height: 90px;
         width: 100%;
         margin-top: 0%;
+    }
+
+    .topnav {
+        padding-left: 15%;
     }
 
     nav {
@@ -145,6 +171,14 @@ body {
 h1 {
     color: black;
 }
+
+h2 {
+    color: black;
+}
+h3 {
+    color: dodgerblue;
+}
+
 p1 {
     color: black;
     font-size: 14px;
