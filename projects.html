@@ -16,7 +16,27 @@
     </div>
     <article>
         <div class="main" id="projects">
-            <h2 style="margin-top: 50px">Dining Concierge Chatbot</h2>
+            <h2 style="margin-top: 100px; margin-left: 220px" class="center">네이버웹툰 챗봇 프로젝트</h2><br>
+            <img src="static/naver-chatbot-demo.gif" border="1px solid #555" alt="naver-chatbot" width="400" class="center"><br><br>
+            <p1 style="margin-top: 10px; margin-left: 100px" class="center">
+                KoAlpaca 모델을 베이스로 하여 네이버웹툰 데이터를 학습시킨 챗봇을 구현해보았습니다.
+            </p1><br><br>
+            <img src="static/naver-chatbot.png" border="1px solid #555" alt="naver-chatbot" width="400" class="center"><br><br>
+            <p1 style="margin-top: 10px; margin-left: 80px" class="center">
+                PEFT의 LoRA기법을 사용하여 Fine-tuning 하여 성능을 향상시켰고, 2100건의 네이버웹툰의<br>
+                작품들의 기본정보 (작가명, 장르, 평점, 유/무료 여부, 관람등급, 연재완료, 출시일)을 제공합니다.
+            </p1><br><br>
+            <img src="static/naver-chatbot-comparison.png" alt="naver-chatbot-comparison" width="900" style="margin-left: -120px"><br><br>
+            <p1 style="margin-top: 10px; margin-left: 50px">
+                ChatGPT api를 연동하여 얻은 답변(왼쪽)과 네이버웹툰 데이터를 학습한 챗봇의 답변(오른쪽) 비교
+            </p1><br><br>
+            <p1>
+                왼쪽의 ChatGPT는 가우스전자의 작가가 누구인지 물었을 때 가우스전자가 전자회사라고 주장했으며, 두번째 질문으로 네이버웹툰의 가우스전자의 작가를 물었을 때는 가우스전자가 네이버웹툰의 플랫폼 회사라고 거짓정보(Halllucination)를 주고 있습니다.
+                반면에 오른쪽의 네이버웹툰 데이터를 학습한 모델은 가우스전자의 작가가 누구인지 물었을 때 정확하게 곽백수 작가라고 답변하고 있습니다.
+            </p1>
+            <br><br><br><br>
+
+            <h2 style="margin-top:50px; margin-left:160px" class="center">Dining Concierge Chatbot</h2>
             <p1>
                 Built a serverless restaurant recommendation chatbot service with <b>AWS Lambda, S3, Amazon Lex API</b> and implemented back-end logics
                 in Python. Used <b>ElasticSearch</b> for data indexing and searching and performed data processing on raw data scraped from <b>the yelp API</b>
@@ -24,7 +44,7 @@
             </p1>
             <br><br>
             <img src="static/chat-bot.png" alt="chat-bot" width="550" class="center"><br><br>
-            <h2>Restaurant Recommendation App</h2>
+            <h2 style="margin-top:50px; margin-left:110px" class="center">Restaurant Recommendation App</h2>
                 <p1>
                     Built a database-driven web application using <b>Node.js</b>, <b>SQL</b>, and <b>Google Maps API</b> with functionalities such as a login page,
                     a restaurant recommendation page based on <b>user's real-time location</b>, save the favorite restaurants in user's note, etc.
@@ -32,7 +52,7 @@
                 </p1>
                 <br>
                 <img src="static/restaurant-recommendation.png" alt="restaurant-recommendation" width="650"><br><br><br>
-            <h2>Real-time Voting System</h2>
+            <h2 style="margin-top:50px; margin-left:140px" class="center">Real-time Voting System</h2>
                 <p1>
                     This real-time voting web application was made for the 2020 United States presidential election with <b>Python</b> and <b>Apache Kafka</b>,
                     which enables batch processing <b>1 million+</b> of votes in every 5 seconds; Selected <b>MongoDB</b> for data storage.<br><br>
@@ -40,20 +60,20 @@
                 <img src="static/vote-ballot.png" alt="vote-ballot" width="650"><br><br>
                 <img src="static/vote-result.png" alt="vote-result" width="650"><br><br>
                 <br><br>
-            <h2>Pipeline for 1000+ Kaggle Competitions (Python)</h2>
+            <h2 class="center">Pipeline for 1000+ Kaggle Competitions</h2>
                 <p1>
                     This was a project that 60 students of the entire class worked together under the supervision of Prof. Iddo Drori at NYU Center for Data Science.
                     We achieved a <b>data pipeline</b> which processes <b>1000+ Kaggle Competitions' datasets</b> and chooses <b>the best machine learning
                     model</b> and returns <b>the most accurate prediction</b> for each Kaggle competition.<br><br>
                 </p1>
                 <img src="static/nyu-ds.png" alt="nyu-data" width="550"><br><br><br>
-            <h2>DJ's Beauty Supply: Online Shopping Platform</h2>
+            <h2 style="margin-top:50px; margin-left:10px">DJ's Beauty Supply: Online Shopping Platform</h2>
             <p1>Developed this <b>online shopping platform</b> for a beauty supply brand with <b>JavaScript, CSS, HTML5, and Magento</b></p1><br><br>
                 <img src="static/djs.png" alt="djs" width="650"><br><br><br><br>
-            <h2>Tang Two: Online Food Ordering Website</h2>
+            <h2 style="margin-top:50px; margin-left:50px">Tang Two: Online Food Ordering Website</h2>
             <p1>Developed this <b>online food ordering website</b> for a restaurant client with <b>PHP, CSS, HTML5, and Wordpress</b></p1><br><br>
                 <img src="static/restaurant-wordpress.png" alt="restaurant-wordpress" width="700"><br><br><br><br>
-            <h2>Bank of Shirts: Online Shopping Platform</h2>
+            <h2 style="margin-top:50px; margin-left:50px">Bank of Shirts: Online Shopping Platform</h2>
             <p1>Developed this <b>online shopping platform</b> for a fashion brand with <b>JavaScript, CSS, HTML5, and Magento</b></p1><br><br>
                 <img src="static/new-top.png" alt="new-top" width="700"><br><br><br><br>
         </div>
